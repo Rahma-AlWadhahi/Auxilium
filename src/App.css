@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-container {
+  background: url("./assets/images/landing_page_main.jpg") no-repeat center;
+  background-size: cover;
+  box-shadow: inset 24em 0 30em 6em #000000;
+  height: 100vh;
+}
+
+.App {
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .main-container {
+    background: url("./assets/images/landing_page_main_flipped.jpg") no-repeat -180px;
+    background-size: cover;
+    box-shadow: inset 0 0 20em 3em #000000;
+  }
+}
