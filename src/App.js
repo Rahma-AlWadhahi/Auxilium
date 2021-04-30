@@ -1,7 +1,10 @@
 import './App.css';
+import LandingPage from './Components/LandingPage/index'
 
 function App() {
-  return (<h1>Axilium</h1>);
+  return(
+    <LandingPage />
+  );
 }
 
 export default App;
