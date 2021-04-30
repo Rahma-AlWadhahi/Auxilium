@@ -1,0 +1,64 @@
+.Signup {
+  background-color: #080e10;
+}
+
+.Signup .main-content {
+  padding: 40px 5%;
+}
+
+.Signup .main-content h1 {
+  font-size: 40px;
+  color: #ffc62d;
+}
+
+.Signup .main-content h1 span {
+  color: #fbfbfb;
+}
+
+.Signup .main-content > p {
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  width: 30%;
+  color: #fbfbfb;
+}
+
+.Signup .main-content > p span {
+  color: #ffc62d;
+}
+
+.Signup .main-content form {
+  margin: 50px 0;
+}
+
+.Signup .main-content form .form-fields {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 550px;
+}
+
+.Signup .btn {
+  margin-top: 10px;
+}
+
+.Signup .main-content .alt {
+  font-size: 18px;
+}
+
+.Signup .main-content .alt p {
+  color: #fbfbfb;
+}
+
+.Signup .main-content .alt a {
+  color: #ffc62d;
+}
+
+.Signup .main-content .alt a:hover {
+  color: #cfa430;
+}
+
+@media screen and (max-width: 800px) {
+  .Signup .main-content > p {
+    width: 90%;
+  }
+}
