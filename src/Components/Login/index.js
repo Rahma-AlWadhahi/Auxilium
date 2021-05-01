@@ -38,7 +38,7 @@ const Login = (props) => {
     e.preventDefault();
     props.startLoading();
     axios
-      .post(`${process.env.REACT_APP_API_URL}/users/signin`, signinData)
+      .post(`${process.env.REACT_APP_API_URL}/users/login`, signinData)
       .then(
         (response) => {
           localStorage.setItem("token", response.data.token);
