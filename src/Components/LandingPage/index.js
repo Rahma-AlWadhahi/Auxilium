@@ -10,10 +10,10 @@ import googlePlayBadge from "../../assets/images/google-play-badge.png";
 
 import hand from "../../assets/images/hand.png";
 import boyOnRocket from "../../assets/images/boy-on-rocket.png";
-import iconSearchFilled from "../../assets/images/icon-search-filled.svg";
-import iconParkingFilled from "../../assets/images/icon-parking-filled.svg";
+import iconSearchFilled from "../../assets/images/login-box";
+import iconParkingFilled from "../../assets/images/support";
 import yellowDottedPattern from "../../assets/images/yellow-dotted-pattern.svg";
-import iconMapPinAddFilled from "../../assets/images/icon-map-pin-add-filled.svg";
+import iconMapPinAddFilled from "../../assets/images/notification";
 
 import billyCoin from "../../assets/images/billy_coin.png";
 import billySafe from "../../assets/images/billy_safe.png";
