@@ -41,13 +41,11 @@ const LandingPage = () => {
         <LandingNavbar />
         <div className="main-a">
           <h1>
-            Find parkings with <br />
-            <span>one click</span>
+            Do good work  <br />
+            <span>Safe & Publically</span>
           </h1>
           <p>
-            Avoid unnecessary roaming by finding
-            <span> the best and the most secure parkings</span> at a price you
-            like, instantly.
+            Spark a fire of <span> Creativity, Social awareness, Goodwillness, Helpfulness and Joy </span> in you in middle of this pandamic. 
           </p>
           <div className="main-a-btns">
             <Button
@@ -75,19 +73,19 @@ const LandingPage = () => {
             <p>Registered Users</p>
           </div>
           <div>
-            <p>Parkings From</p>
+            <p>Registrants From</p>
             <h2>50+</h2>
-            <p>Cities</p>
+            <p>Countries</p>
           </div>
           <div>
             <p>Partnered With Over</p>
-            <h2>1000</h2>
-            <p>Parking Providers</p>
+            <h2>100</h2>
+            <p>NGO's</p>
           </div>
           <div>
-            <p>Our Users Booked</p>
-            <h2>250000+</h2>
-            <p>Parkings Around The Globe</p>
+            <p>Our Users Raised</p>
+            <h2>$ 25000+</h2>
+            <p>Worth Funds Around The Globe</p>
           </div>
         </div>
       </main>
@@ -101,7 +99,7 @@ const LandingPage = () => {
               <img src={iconSearchFilled} />
             </div>
             <div className="timeline-content">
-              Login and Search with City names
+              Login and Click on the tasks section
             </div>
           </div>
 
@@ -110,7 +108,7 @@ const LandingPage = () => {
               <img src={iconMapPinAddFilled} />
             </div>
             <div className="timeline-content right">
-              Select and Book your desired Parking Space
+              Complete the task and share a selfie with others
             </div>
           </div>
 
@@ -119,7 +117,7 @@ const LandingPage = () => {
               <img src={iconParkingFilled} />
             </div>
             <div className="timeline-content">
-              Get navigated and Park your vehicle
+              Appriciate other's tasks by liking their selfie & get appriciated as well
             </div>
           </div>
         </div>
@@ -128,28 +126,28 @@ const LandingPage = () => {
         <img className="floats" src={yellowDottedPattern} />
         <img className="floats" src={yellowDottedPattern} />
         <img className="floats" src={yellowDottedPattern} />
-        <h1>Why Parking point</h1>
-        <h1>Why Parking point</h1>
+        <h1>Why Auxilium</h1>
+        <h1>Why Auxilium</h1>
         <div className="features-list">
           <div className="feature">
             <img src={billySearch} />
-            <h2>Convenient Parking</h2>
-            <p>Easily find and book nearest parkings.</p>
+            <h2>Get noticed</h2>
+            <p>complete the tasks and do goodwill & rank on the top leaderboards and get noticed globally</p>
           </div>
           <div className="feature">
             <img src={billySecure} />
             <h2>Safe and Secure</h2>
-            <p>No worries of theft and penalties.</p>
+            <p>No worries of personal data leakage and frauds</p>
           </div>
           <div className="feature">
             <img src={billyCoin} />
-            <h2>Cashless Booking</h2>
-            <p>Book instantly using the in-app coins.</p>
+            <h2>Earn points</h2>
+            <p>Earn points on completing the task and use the points to donate during this pandamic</p>
           </div>
           <div className="feature">
             <img src={billySafe} />
             <h2>Covid-19 protected</h2>
-            <p>Assured Sanitized Parking spaces.</p>
+            <p>No need to get out of your homes. You can enjoy this platform from comfort of your home</p>
           </div>
         </div>
       </section>
@@ -181,38 +179,36 @@ const LandingPage = () => {
           <div className="footer-info">
             <h2>About Project</h2>
             <p>
-              This Web Application is developed as a college project and does
-              not aim to provide true services to its users. The whole Web
-              Application works as intended but you wont be getting any actual
-              parking using this Web App. Find the code and read more from
-              <a href="https://github.com/Yuvrajhere/parking-point-frontend"> this Github Repo</a>.
+              This Web Application is developed as a DevSoc'21 Hackathon project. We are aiming to solve the problems like the mental health issues faced by people in lockdown.Our aim is to spark a fire of creativity, Social awareness, goodwillness, Helpfulness and joy in them. Our aim also includes indulging some habit amongst the users by the medium of tasks.We are aiming to overcome problems like lonliness, boredom, unable to help, mental and physical health issues amongst the citizens.
+
+              <a href="https://github.com/kaiwalyakoparkar/Auxilium"> this Github Repo</a>.
             </p>
           </div>
           <div className="contact">
             <h2>Contact Me</h2>
             <p>
-              If you have a nice story to tell, mail me at
-              <a href="https://gmail.com/"> yuvrajisbest13@gmail.com</a> or you
-              can connect with me on below platforms.
+              If you have a nice story to tell, mail us at
+              <a href="#"> contact@teaminfinity.com</a> or you
+              can connect with us on below platforms.
             </p>
             <div className="contact-links">
-              <a href="https://github.com/Yuvrajhere">
+              <a href="https://github.com/kaiwalyakoparkar/Auxilium">
                 <img src={iconGithubBlack} />
                 <img src={iconGithub} />
               </a>
-              <a href="https://www.linkedin.com/in/yuvraj-singh-chouhan-008953147/">
+              <a href="#">
                 <img src={iconLinkedinBlack} />
                 <img src={iconLinkedin} />
               </a>
-              <a href="https://twitter.com/YuvrajS23650613">
+              <a href="#">
                 <img src={iconTwitterBlack} />
                 <img src={iconTwitter} />
               </a>
-              <a href="https://www.instagram.com/yuvraj_singh_c/">
+              <a href="#">
                 <img src={iconInstagramBlack} />
                 <img src={iconInstagram} />
               </a>
-              <a href="https://discordapp.com/users/301767714685321226/">
+              <a href="#">
                 <img src={iconDiscordBlack} />
                 <img src={iconDiscord} />
               </a>
@@ -220,7 +216,7 @@ const LandingPage = () => {
           </div>
         </div>
         <p>
-          Developed with ❤️ by <span>Yuvraj Singh Chouhan</span>.
+          Developed with ❤️ by <span>Team Infinity</span>.
         </p>
       </footer>
     </div>

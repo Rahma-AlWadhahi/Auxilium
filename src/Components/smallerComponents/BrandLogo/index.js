@@ -16,7 +16,7 @@ const BrandLogo = () => {
     >
       <img src={parkingPointLogo} alt="brand logo" />
       <h2>
-        <span>P</span>arking <span> P</span>oint
+        <span>A</span>uxilium
       </h2>
     </div>
   );
