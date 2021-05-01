@@ -1,0 +1,71 @@
+.Login {
+  background-color: #080e10;
+}
+
+.Login .main-content {
+  padding: 40px 5%;
+}
+
+.Login .main-content h1 {
+  font-size: 40px;
+  color: #ffc62d;
+}
+
+.Login .main-content h1 span {
+  color: #fbfbfb;
+}
+
+.Login .main-content > p {
+  font-size: 18px;
+  margin: 20px 0 40px 0;
+  width: 30%;
+  color: #fbfbfb;
+}
+
+.Login .main-content > p span {
+  color: #ffc62d;
+}
+
+.Login .main-content form {
+  margin: 50px 0;
+}
+
+.Login .main-content form .form-fields {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.Login .btn {
+  margin-top: 10px;
+}
+
+.Login .main-content .alt {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Login .main-content .alt p {
+  margin: 0;
+  margin-top: 10px;
+  color: #fbfbfb;
+}
+
+.Login .main-content .alt p:first-child {
+  margin-bottom: 10px;
+}
+
+.Login .main-content .alt a {
+  color: #ffc62d;
+}
+
+.Login .main-content .alt a:hover {
+  color: #cfa430;
+}
+
+@media screen and (max-width: 800px) {
+  .Login .main-content > p {
+    width: 90%;
+  }
+}

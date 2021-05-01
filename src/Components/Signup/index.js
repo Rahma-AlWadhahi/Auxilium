@@ -50,8 +50,9 @@ const Signup = (props) => {
         password1: undefined,
         password2: undefined,
       };
+      // ${process.env.REACT_APP_API_URL}
       axios
-        .post(`${process.env.REACT_APP_API_URL}/users/`, data)
+        .post(`http://localhost:5000/api/users/`, data)
         .then((res) => {
           console.log(res);
           console.log(res.data.message);
@@ -67,6 +68,7 @@ const Signup = (props) => {
           history.push("/login");
         })
         .catch((error) => {
+          console.log(error)
           props.stopLoading();
           if (error.response) {
             props.showAlert(error.response.data.message);
