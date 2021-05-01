@@ -1,6 +1,6 @@
 import "./BrandLogo.css";
 
-import parkingPointLogo from "../../../assets/images/parking-point-logo.png";
+import parkingPointLogo from "../../../assets/images/auxilium-logo-1.png";
 
 import { useHistory } from "react-router-dom";
 
