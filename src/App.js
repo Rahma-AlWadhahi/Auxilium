@@ -8,6 +8,7 @@ import Login from "./Components/Login";
 import Alert from "./Components/Alert";
 import Loading from "./Components/Loading";
 import Home from "./Components/Home";
+import PostForm from "./Components/PostForm";
 import { connect } from "react-redux";
 
 const mapStateToProps = (state) => {
@@ -27,6 +28,7 @@ const App = (props) => {
           <PublicRoute component={Login} path="/login" exact />
           <PublicRoute component={Signup} path="/signup" exact />
           <PublicRoute component={LandingPage} path="/" exact />
+          <PrivateRoute component={PostForm} path="/addpost" exact />
           <PrivateRoute component={Home} path="/home" exact />
         </Switch>
       </div>

@@ -1,0 +1,68 @@
+.PostForm {
+  background-color: #2D2D2D;
+  min-height: 100vh;
+  color: #99aab5;
+}
+
+.PostForm main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.form-child {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding: 1px 2px;
+  width: 100%;
+}
+
+.form-child label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-child textarea {
+  resize: none;
+  height: 70px;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+  padding: 2px 4px;
+}
+
+.form-child textarea:focus {
+  outline: none;
+}
+
+.form-child select {
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+  padding: 4px;
+  background-color: #fefefe;
+  color: gray;
+}
+
+.form-child select:focus {
+  outline: none;
+}
+
+.form-child input[type=file] {
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+  background-color: #fefefe;
+  cursor: pointer;
+}
+
+.form-child input[type=file]:focus {
+  outline: none;
+}
+
+.PostForm .post-btns .pri-btn {
+  margin-right: 20px;
+}
