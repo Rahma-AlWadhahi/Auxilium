@@ -91,7 +91,7 @@ const Signup = (props) => {
         <div className="main-content">
           <h1>
             Signup <br />
-            <span>Parking will never be this easy!</span>
+            <span>Happiness is one step closer!</span>
           </h1>
           <p>
             Lets get you setup with a few details,
