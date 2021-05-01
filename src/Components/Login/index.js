@@ -63,10 +63,10 @@ const Login = (props) => {
         <div className="main-content">
           <h1>
             Login <br />
-            <span>Great Parkings are waiting for you!</span>
+            <span>Great people are waiting for you!</span>
           </h1>
           <p>
-            Login to the world of parkings using
+            Login to the world of happiness using
             <span> your registered email and password.</span>
           </p>
           <form onSubmit={handleSubmit}>
