@@ -35,7 +35,7 @@ a {
 
 @media screen and (max-width: 800px) {
   .main-container {
-    background: url("./assets/images/landing_page_main_flipped.jpg") no-repeat -180px;
+    background: url("./assets/images/auxilium-back-1.png") no-repeat -180px;
     background-size: cover;
     box-shadow: inset 0 0 20em 3em #000000;
   }
