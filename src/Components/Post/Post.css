@@ -1,0 +1,30 @@
+.Post {
+  color: #99aab5;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #575757;
+  border-radius: 2px;
+}
+
+.Post .post-head {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Post .post-head .user {
+  display: flex;
+  align-items: center;
+}
+
+.Post .post-head .user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.Post .post-head .user {
+  
+}
