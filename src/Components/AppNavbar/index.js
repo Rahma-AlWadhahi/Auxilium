@@ -57,8 +57,8 @@ const AppNavbar = (props) => {
         </li>
 
         <li>
-          <NavLink to="/search" activeClassName="active" exact>
-            Search
+          <NavLink to="/tasks" activeClassName="active" exact>
+            Tasks
           </NavLink>
         </li>
 
