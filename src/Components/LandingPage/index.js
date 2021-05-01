@@ -99,7 +99,7 @@ const LandingPage = () => {
               <img src={iconSearchFilled} />
             </div>
             <div className="timeline-content">
-              Login and Click on the tasks section
+              Login and Click on the tasks section.
             </div>
           </div>
 
@@ -108,7 +108,7 @@ const LandingPage = () => {
               <img src={iconMapPinAddFilled} />
             </div>
             <div className="timeline-content right">
-              Complete the task and share a selfie with others
+              Complete the task and share a selfie with others.
             </div>
           </div>
 
@@ -117,7 +117,7 @@ const LandingPage = () => {
               <img src={iconParkingFilled} />
             </div>
             <div className="timeline-content">
-              Appriciate other's tasks by liking their selfie & get appriciated as well
+            Appreciate other's tasks by liking their selfie & get appreciated as well!
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ const LandingPage = () => {
           <div className="feature">
             <img src={billySearch} />
             <h2>Get noticed</h2>
-            <p>complete the tasks and do goodwill & rank on the top leaderboards and get noticed globally</p>
+            <p>complete the tasks, do goodwill and <br/>  rank on the top leaderboards and get noticed globally</p>
           </div>
           <div className="feature">
             <img src={billySecure} />
@@ -142,12 +142,12 @@ const LandingPage = () => {
           <div className="feature">
             <img src={billyCoin} />
             <h2>Earn points</h2>
-            <p>Earn points on completing the task and use the points to donate during this pandamic</p>
+            <p>Earn points on completing the task and <br/> use the points to donate during this pandamic</p>
           </div>
           <div className="feature">
             <img src={billySafe} />
             <h2>Covid-19 protected</h2>
-            <p>No need to get out of your homes. You can enjoy this platform from comfort of your home</p>
+            <p>No need to get out of your homes.<br /> You can enjoy this platform from comfort of your home</p>
           </div>
         </div>
       </section>
