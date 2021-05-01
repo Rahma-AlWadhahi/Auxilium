@@ -5,11 +5,24 @@ import PrivateRoute from "./routes/PrivateRoute";
 import PublicRoute from "./routes/PublicRoute";
 import Signup from "./Components/Signup";
 import Login from "./Components/Login";
+import Alert from "./Components/Alert";
+import Loading from "./Components/Loading";
+import { connect } from "react-redux";
 
-function App() {
+const mapStateToProps = (state) => {
+  return {
+    loading: state.loading,
+    alert: state.alert,
+  };
+};
+
+const App = (props) => {
   return (
     <Router>
       <div className="App">
+        {props.loading && <Loading />}
+        {props.alert && <Alert />}
+
         <Switch>
           <PublicRoute component={Login} path="/login" exact />
           <PublicRoute component={Signup} path="/signup" exact />
@@ -18,6 +31,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
-export default App;
+export default connect(mapStateToProps, null)(App);
